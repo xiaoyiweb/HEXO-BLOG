@@ -2,18 +2,19 @@ menu:
   文库:
     文章列表: /archives/ || fas fa-box-archive
     全部分类: /categories/ || fas fa-cube
-    全部标签: /tags/ || fas fa-tags
-  专栏:
-    设计报告: /tags/设计报告/ || fas fa-swatchbook
-    设计分享: /tags/Heocan/ || fas fa-object-group
-    设计工具: /tags/Sketch/ || fas fa-palette
+    全部标签: /essay/ || fas fa-tags
+    即刻短文: /e/ || fas fa-tags
+  # 专栏:
+  #   设计报告: /tags/设计报告/ || fas fa-swatchbook
+  #   设计分享: /tags/Heocan/ || fas fa-object-group
+  #   设计工具: /tags/Sketch/ || fas fa-palette
   友链:
     友链鱼塘: /fcircle/ || fas fa-fish-fins
     友情链接: /link/ || fas fa-user-group
     宝藏博主: javascript:travelling() || fas fa-bus
   我的:
-    在线工具: /tlink/ || fas fa-screwdriver-wrench
-    电影推荐: /movies/ || fas fa-clapperboard
+    # 在线工具: /tlink/ || fas fa-screwdriver-wrench
+    # 电影推荐: /movies/ || fas fa-clapperboard
     关于本站: /about/ || fas fa-sailboat
 
 # Code Blocks (代碼相關)
@@ -93,16 +94,16 @@ about:
       - 脚踏实地行动派 🏃
       - 专攻各种困难 🧱
       - 人狠话不多 💢
-  job: 学生、独立开发者、博主
-  live: 中国，北京市
+  job: 程序员、独立开发者、博主
+  live: 广东，珠海市
   born: 1997
-  school: 大连工业大学
-  can: 产品设计
-  work: UI/产品
+  school: 运城大学
+  can: 园林
+  work: 前端开发工程师
   character: 逻辑学家
   character2: INTP-T
   personalities: https://cdn.zhheo.com/public/svg/INTP-T.svg
-  selfie: https://p.zhheo.com/202352d98ec86bef3388a0152b33cf9d06ad082002.png!cover
+  selfie:
   maxim1: 荆棘之路，
   maxim2: 劈风斩浪。
   tc1: 玄学流电脑疑难问题
@@ -211,7 +212,7 @@ cover:
 
 # 即刻短文（默认关闭）
 bbTimeList:
-  enable: false
+  enable: true
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
